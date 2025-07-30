@@ -1,1 +1,140 @@
-# HackerWissen1
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Neues – HackerWissen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #33ff33;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 2px solid #33ff33;
+    }
+
+    nav {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #33ff33;
+    }
+
+    nav a {
+      color: #33ff33;
+      text-decoration: none;
+      padding: 15px 30px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #262626;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .artikel {
+      padding: 20px;
+      background-color: #121212;
+      border: 1px solid #33ff33;
+      box-shadow: 0 0 10px #33ff3333;
+    }
+
+    .artikel h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 6px #33ff33;
+    }
+
+    .abschnitt {
+      margin-bottom: 25px;
+    }
+
+    .abschnitt h3 {
+      font-size: 18px;
+      color: #00cc66;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .abschnitt p {
+      line-height: 1.6;
+    }
+
+    .mantra {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 25px;
+      color: #00cc66;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧠 Neues – HackerWissen</h1>
+  </header>
+  <nav>
+    <a href="index.html">Startseite</a>
+    <a href="suche.html">Suche</a>
+    <a href="aktuelles.html">Aktuelles</a>
+    <a href="archiv.html">Archiv</a>
+    <a href="neues.html">Neues</a>
+    <a href="impressum.html">Impressum</a>
+  </nav>
+
+  <main>
+    <div class="artikel">
+      <h2>*N.N.* – Die Kartographen digitaler Irritation</h2>
+
+      <div class="abschnitt">
+        <h3>🌀 Ursprünge und erste Sichtungen</h3>
+        <p>Zwischen 2016 und 2018 machten erste Nutzer in Europa Bekanntschaft mit der Gruppe, als sie unerwartet Reisebestätigungen per E-Mail erhielten – Buchungen unter ihrem Namen, bezahlt, ohne schädliche Anhänge. Der Absender entschuldigte sich höflich und bat um Weiterleitung. Später folgten ähnliche Vorfälle mit Einladungen, Cloud-Links oder Kalender-Events – stets höflich, stets echt, aber ohne plausiblen Kontext.</p>
+      </div>
+
+      <div class="abschnitt">
+        <h3>🧬 Technische Mechanik und Muster</h3>
+        <p>*N.N.* nutzt rotierende IP-Blöcke, DNS-Reflection-Channels und temporäre Domains. Auffällig ist das sogenannte „Soft Injection“, bei dem legitime Dienste als Träger für harmlose Metadaten dienen. Nach Kontakt zeigen Systeme kurzzeitig Anomalien – etwa asynchrone Antwortzeiten oder neue Logstrukturen – offenbar zur Reaktionsmessung.</p>
+      </div>
+
+      <div class="abschnitt">
+        <h3>🧠 Soziotechnische Intentionen</h3>
+        <p>Cyberpsychologen vermuten einen Versuch, die digitale Sozialität zu kartographieren. Andere deuten die Gruppe als stille Kritik an der algorithmischen Vorhersagbarkeit menschlicher Entscheidungen. *N.N.* wird deshalb nicht als kriminell, sondern als „strukturell intervenierend“ betrachtet.</p>
+      </div>
+
+      <div class="abschnitt">
+        <h3>🔎 Internationale Fundorte</h3>
+        <p>Technische Artefakte wurden bisher in Kanada, Polen, Südafrika, Südkorea und Chile entdeckt – meist in API-nahen Umgebungen mit offenem Authentifizierungsraum. Auffällig ist die Kombination aus realen Daten und bewusst falsch verknüpften Identitäten.</p>
+      </div>
+
+      <div class="abschnitt">
+        <h3>📑 Umgang und Protokollierung</h3>
+        <p>Sicherheitszentren raten zur Sandbox-Isolation und Behavioral Analysis statt Löschung. Prof. Dr. Sonja Veltmann (Utrecht):</p>
+        <p class="mantra">„Was *N.N.* tut, ist keine direkte Bedrohung – aber eine intellektuelle Herausforderung für unser Vertrauen in digitale Selbstverständlichkeiten.“</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 HackerWissen – Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>
